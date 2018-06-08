@@ -1,3 +1,7 @@
+body {
+    background-image:url()
+}
+
 a.spoiler:after {
     content: " [-]";
 }
@@ -6,11 +10,9 @@ a.spoiler.collapsed :after {
     content: " [+]";
 }
 
-.nav-tabs {
-    margin-bottom: 15px;
+#responsive-menu {
+    padding:5px;
 }
-
-
 
 @media screen and (max-width: 767px) {
     .masonry[data-columns]::before {
